@@ -24,7 +24,7 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 
 ---
 
-Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-01/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
+Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-XX/SOAL.md` yang menyebutnya) — heading-nya dicek otomatis, jangan diganti namanya. Repo kalian dibuat dari template sekali di awal semester, jadi section README untuk pertemuan yang datang belakangan **tidak otomatis muncul** di repo kalian: kalau `SOAL.md` sebuah pertemuan meminta section baru, tambahkan sendiri heading-nya (`## ...` persis seperti yang disebut di soal) ke `README.md` repo kalian.
 
 ## Identitas
 - Nama: (tulis di sini)
@@ -44,4 +44,28 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 (tulis di sini)
 
 ## Refleksi
+(tulis di sini)
+
+## Analisis Pertemuan 4
+(tulis di sini)
+
+## Analisis Pertemuan 5
+(tulis di sini)
+
+## Dokumentasi API Task Manager
+(tulis di sini)
+
+## Analisis Pertemuan 7
+(tulis di sini)
+
+## Analisis Pertemuan 9
+(tulis di sini)
+
+## Arsitektur Task Manager v5
+(tulis di sini)
+
+## Checklist Keamanan Task Manager v6
+(tulis di sini)
+
+## Refleksi Topik Lanjutan
 (tulis di sini)
