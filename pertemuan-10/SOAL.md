@@ -1,4 +1,4 @@
-# Pertemuan 7 — Task Manager v3: TaskStore di atas PostgreSQL
+# Pertemuan 10 — Task Manager v3: TaskStore di atas PostgreSQL
 
 Momen pembuktian kenapa kita membuat interface `TaskStore` sejak Pertemuan 4: minggu ini data Task Manager pindah dari memori ke **PostgreSQL** — dan REST API dari Pertemuan 6 (routing, JSON, error terstruktur) hampir **tidak berubah**. Kalian hanya menulis implementasi `TaskStore` yang baru: `PostgresStore`.
 
