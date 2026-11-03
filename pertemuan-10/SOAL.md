@@ -161,7 +161,7 @@ Jalankan dengan `docker compose up -d --wait` — opsi `--wait` menunggu healthc
 
 **2. API di atas PostgreSQL** — `NewAPI(NewPostgresStore(db)).Routes()`: seluruh CRUD REST (POST/GET/PUT/DELETE, judul kosong → 400, 404) berjalan di atas database, data bertahan di database (store baru di atas `db` yang sama melihat data yang sama), dan `DELETE` lewat API menulis log. Yang perlu kalian ubah di `api.go`: **`listTasks`** — baris `tugas, _ := a.store.List()` membuang error; teruskan ke `writeError` supaya kegagalan database menjadi **500 generik** `{"error":"terjadi kesalahan internal"}` (tanpa detail), bukan `200` dengan `null`. Test memeriksa dua skenario: store yang `List()`-nya sengaja gagal, dan database yang benar-benar ditutup.
 
-**3. `## Analisis Pertemuan 7`** di `README.md` (root repo) — dengan kata-kata sendiri, **minimal ±250 karakter**:
+**3. `## Analisis Pertemuan 10`** di `README.md` (root repo) — dengan kata-kata sendiri, **minimal ±250 karakter**:
 
 1. Kenapa `Delete` + `INSERT` log harus **satu transaksi**? Apa yang terjadi pada data kalau keduanya dijalankan sebagai dua statement terpisah dan yang kedua gagal?
 2. `docker compose up -d` selesai dalam sekejap tapi koneksi pertama ke database bisa gagal. Kenapa? Bagaimana `healthcheck` + `--wait` menolong?
